@@ -1,0 +1,47 @@
+.style-warning-msg {
+  font-size: 12px;
+  color: red;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.left-box {
+  max-width: 300px;
+  width: 100%;
+  border-right: solid 1px #838383cc;
+}
+
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+}
+
+.active-todos {
+  margin-top: 2%;
+}
+
+.style-message {
+  margin-top: 100px;
+  height: 50%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box-menu {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ffffff80;
+}
+
+.active-todos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}

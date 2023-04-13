@@ -1,0 +1,130 @@
+.todo-creator-style {
+  border: 2px solid rgb(236, 146, 9);
+  background-color: rgba(86, 148, 148, 0.2);
+  padding: 15px;
+  width:850px;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-right: 35px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+  margin: auto;
+  display: flex;
+  text-align: start;
+}
+
+.container-create-todo{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-title{
+  margin-top: 3px;
+}
+
+.cont-title{
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+.style-warning-msg {
+  font-size: 18px;
+  color: rgb(172, 43, 26);
+  font-weight: 800;
+}
+
+.style-input {
+  background: transparent;
+  border: 1px solid rgb(145, 145, 145, 0.3);
+  border-radius: 5px;
+  font-size: 18px;
+  min-width: 100px;
+  width: 100%;
+  width: 600px;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.input-style-creator {
+  background: transparent;
+  border: 1px solid rgb(145, 145, 145, 0.3);
+  border-radius: 5px;
+  font-size: 18px;
+  min-width: 100px;
+  width: 100%;
+  width: 540px;
+  margin: 5px;
+}
+
+.title-box{
+display: flex;
+flex-direction: column;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.left-box {
+  max-width: 300px;
+  width: 100%;
+  border-right: solid 1px #838383cc;
+}
+
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+  opacity: 0.33;
+}
+
+.box-menu {
+  display: flex;
+  border-top: solid 1px #dddddd80;
+}
+
+.btn-create {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 20px;
+  margin-top: 50px;
+  margin-left: 7px;
+	outline: none;
+	border: none;  
+	border-radius: 15px;
+	height: 50px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #08a2c9;
+	box-shadow: 0 2px #21487f;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+
+.btn-create:hover {
+	background-color: #08c97f;
+}
+
+.btn-create:active {
+	background-color: #0e3588 !important;
+}
+
+.btn-create:focus-visible {
+	box-shadow: 0 0 0 3px lightskyblue;
+}
+
+.btn-create:disabled {
+	background-color: #6c87b5;
+	pointer-events: none;
+}

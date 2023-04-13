@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+.App {
+  margin: auto;
+  height: 100%;
+  padding-top: 1%;
+}
+
+
+
+
